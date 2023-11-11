@@ -1,0 +1,62 @@
+.backgroundContainer{
+    width: 100vw;
+    position: absolute;
+}
+.inputContainer{
+    background-image: url("../../assets/bg-shorten-mobile.svg") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: hsl(257, 27%, 26%);
+    width: 90vw;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+    bottom: 4em;
+}
+.shortenInput{
+    width: 80%;
+    height: 38px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(257, 7%, 63%);
+    padding-left: 10px;
+}
+
+
+.shortenItButton{
+    width: 80%;
+    height: 38px;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width:850px){
+    .inputContainer{  
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        gap: 15px;
+        bottom: 2.5em;
+}
+.shortenInput{
+    width: 80%;
+    height: 38px;
+}
+
+
+.shortenItButton{
+    width: 20%;
+    height: 38px;
+}
+
+}
