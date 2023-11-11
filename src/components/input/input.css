@@ -1,9 +1,10 @@
-.backgroundContainer{
-    width: 100vw;
+.backgroundContainer {
     position: absolute;
+    width: 100%;
 }
-.inputContainer{
-    background-image: url("../../assets/bg-shorten-mobile.svg") ;
+
+.inputContainer {
+    background-image: url("../../assets/bg-shorten-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -18,7 +19,8 @@
     position: relative;
     bottom: 4em;
 }
-.shortenInput{
+
+.shortenInput {
     width: 80%;
     height: 38px;
     border-radius: 8px;
@@ -29,7 +31,7 @@
 }
 
 
-.shortenItButton{
+.shortenItButton {
     width: 80%;
     height: 38px;
     background-color: hsl(180, 66%, 49%);
@@ -40,23 +42,24 @@
     font-weight: bold;
 }
 
-@media only screen and (min-width:850px){
-    .inputContainer{  
+@media only screen and (min-width:850px) {
+    .inputContainer {
         flex-direction: row;
         justify-content: center;
         padding: 20px;
         gap: 15px;
         bottom: 2.5em;
-}
-.shortenInput{
-    width: 80%;
-    height: 38px;
-}
+    }
+
+    .shortenInput {
+        width: 80%;
+        height: 38px;
+    }
 
 
-.shortenItButton{
-    width: 20%;
-    height: 38px;
-}
+    .shortenItButton {
+        width: 20%;
+        height: 38px;
+    }
 
 }
