@@ -1,19 +1,22 @@
-.illustrationWorking{
+.illustrationWorking {
     width: 100vw;
     padding-left: 30px;
-   
 }
-.homeContainer{
+
+.homeContainer {
     width: 100vw;
 }
-.sectionTitle{
+
+
+.sectionTitle {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 30px 50px;
     text-align: center;
 }
-.getStartedButton{
+
+.getStartedButton {
     background-color: hsl(180, 66%, 49%);
     color: white;
     width: 200px;
@@ -23,51 +26,55 @@
     font-size: 18px;
     font-weight: bold;
 }
-.paragraphHome{
+
+.paragraphHome {
     color: hsl(257, 7%, 63%);
     font-size: 18px;
     font-family: 'Barlow', sans-serif;
     padding: 20px 0px;
 }
-.titleHome{
+
+.titleHome {
     color: hsl(257, 27%, 26%);
     font-family: 'Barlow', sans-serif;
     font-weight: 800;
     font-size: 32px;
-    
+
 }
 
-@media only screen and (min-width:850px){
+@media only screen and (min-width:850px) {
 
-.homeContainer{
-    width: 100vw;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-}
-.illustrationWorking{
-    width: 45vw;
-    margin-right: 50px;
-}
-.sectionTitle{
-    width: 65%;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    flex-direction: column;
-    padding: 50px 0px 0px 140px;
-    text-align: start;
-}
-.paragraphHome{
-    color: hsl(257, 7%, 63%);
-    width: 70%;
-    padding: 0px 0px 25px 0px;
-}
-.titleHome{
-    width: 75%;
-    font-size: 44px;
-    line-height: 45px
-    
-}
-}
+    .homeContainer {
+        width: 100vw;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
 
+    .illustrationWorking {
+        width: 45vw;
+        margin-right: 50px;
+    }
+
+    .sectionTitle {
+        width: 65%;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0px 0px 140px;
+        text-align: start;
+    }
+
+    .paragraphHome {
+        color: hsl(257, 7%, 63%);
+        width: 70%;
+        padding: 0px 0px 25px 0px;
+    }
+
+    .titleHome {
+        width: 75%;
+        font-size: 44px;
+        line-height: 45px
+    }
+}
