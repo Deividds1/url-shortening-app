@@ -4,8 +4,6 @@ import './info.css'
 
 function Info() {
 
-    const { apiData } = useData();
-
     return (
         <div className='info-container'>
 
