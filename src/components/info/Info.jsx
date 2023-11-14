@@ -9,8 +9,6 @@ function Info() {
     return (
         <div className='info-container'>
 
-            <div>{apiData}</div>
-
             <div className='info-first-text'>
                 <p className='first-title-info'>Advanced Statistics</p>
                 <p className='info-description'>Track how your links are performing across the web with pur advanced statistics dashboard.</p>

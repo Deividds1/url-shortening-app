@@ -42,10 +42,8 @@
     font-weight: bold;
 }
 
-.new-url-container {
-    position: absolute;
-    padding: 10px;
-    z-index: 3;
+.shortenedUrlContainer {
+    display: flex;
 }
 
 @media only screen and (min-width:850px) {
