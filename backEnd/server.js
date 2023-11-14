@@ -49,8 +49,8 @@ app.post('/api', async (req, res) => {
             body: `url=${encodeURIComponent(url)}`,
         });
 
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+        if (!cleanUriResponse.ok) {
+            throw new Error(`HTTP error! status: ${cleanUriResponse.status}`);
         }
 
         const cleanUriData = await cleanUriResponse.json();

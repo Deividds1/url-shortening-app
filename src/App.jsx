@@ -13,8 +13,9 @@ function App() {
     <Header/>
     <Home/>
     <Input/>
-      <Info></Info>
-      <Footer></Footer>
+
+    <Info></Info>
+    <Footer></Footer>
     </>
   )
 }
