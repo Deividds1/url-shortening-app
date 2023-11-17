@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Input from './components/input/Input'
+import Url from './components/url/url'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
     <>
       <Header />
       <Home />
-      <Input />
+      <Url/>
       <Info />
       <Footer />
     </>

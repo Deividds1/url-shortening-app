@@ -41,42 +41,7 @@
     font-size: 18px;
     font-weight: bold;
 }
-.originalAndShortenedContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 0px;
-    gap: 15px;
-    background-color: white;
-    width: 90vw;
-    margin: auto;
-    border-radius: 8px;
-    margin: 20px;
-}
-.originalUrl{
-    
-    font-size: 18px;
-    font-weight: bold ;
-}
-.shortenedUrl{
-   color: hsl(180, 66%, 49%); 
-   font-size: 18px;
-}
-hr{
-    width: 100%;
-    background-color: hsl(257, 7%, 63%);
-    opacity: 25%;
-}
-.copyButton{
-    width: 85%;
-    height: 38px;
-    background-color: hsl(180, 66%, 49%);
-    color: white;
-    border-radius: 8px;
-    border: none;
-    font-size: 16px;
-    font-weight: bold;
-}
+
 
 @media only screen and (min-width:850px) {
     .inputContainer {
