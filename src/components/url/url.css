@@ -1,0 +1,58 @@
+.shortenedUrlContainer{
+    padding-top: 70px;
+    background-color: hsl(0,0%,75%);
+}
+.originalAndShortenedContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 15px;
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.originalUrl{
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold ;
+}
+.shortenedUrl{
+    text-align: left;
+   color: hsl(180, 66%, 49%); 
+   font-size: 18px;
+}
+hr{
+    width: 100%;
+    background-color: hsl(257, 7%, 63%);
+    opacity: 25%;
+}
+.copyButton{
+    width: 85%;
+    height: 38px;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width:850px) {
+    .originalAndShortenedContainer{
+        flex-direction: row;
+        padding: 15px;
+    }
+    .copyButton{
+        width: 10%;
+}
+hr{
+    display: none;
+}
+.originalUrl{
+    text-align: left;
+    width: 75%;
+}
+}
