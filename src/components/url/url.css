@@ -1,8 +1,9 @@
-.shortenedUrlContainer{
+.shortenedUrlContainer {
     padding-top: 70px;
-    background-color: hsl(0,0%,75%);
+    background-color: hsl(0, 0%, 75%);
 }
-.originalAndShortenedContainer{
+
+.originalAndShortenedContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,22 +15,26 @@
     border-radius: 8px;
     margin-top: 20px;
 }
-.originalUrl{
-    text-align: left;
+
+.originalUrl {
+    text-align: center;
     font-size: 18px;
-    font-weight: bold ;
+    font-weight: bold;
 }
-.shortenedUrl{
+
+.shortenedUrl {
     text-align: left;
-   color: hsl(180, 66%, 49%); 
-   font-size: 18px;
+    color: hsl(180, 66%, 49%);
+    font-size: 18px;
 }
-hr{
+
+hr {
     width: 100%;
     background-color: hsl(257, 7%, 63%);
     opacity: 25%;
 }
-.copyButton{
+
+.copyButton {
     width: 85%;
     height: 38px;
     background-color: hsl(180, 66%, 49%);
@@ -53,18 +58,21 @@ hr{
 
 
 @media only screen and (min-width:850px) {
-    .originalAndShortenedContainer{
+    .originalAndShortenedContainer {
         flex-direction: row;
         padding: 15px;
     }
-    .copyButton{
+
+    .copyButton {
         width: 10%;
-}
-hr{
-    display: none;
-}
-.originalUrl{
-    text-align: left;
-    width: 75%;
-}
+    }
+
+    hr {
+        display: none;
+    }
+
+    .originalUrl {
+        text-align: left;
+        width: 75%;
+    }
 }
