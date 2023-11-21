@@ -5,7 +5,8 @@ import './App.css'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Input from './components/input/Input'
-import Url from './components/url/url'
+import Url from './components/url/Url.jsx'
+
 
 function App() {
 
