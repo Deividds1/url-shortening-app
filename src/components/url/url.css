@@ -39,6 +39,18 @@ hr{
     font-size: 16px;
     font-weight: bold;
 }
+.copyButton:hover {
+    opacity: 0.5;
+  }
+  
+  .copyButton.copied {
+    background-color: hsl(260, 8%, 14%); 
+
+  }
+  .copyButton.copied:hover{
+    opacity: 1.0;
+  }
+
 
 @media only screen and (min-width:850px) {
     .originalAndShortenedContainer{

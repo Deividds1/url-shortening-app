@@ -6,6 +6,7 @@ import './url.css';
 function Url() {
   const [shortenedUrls, setShortenedUrls] = useState([]);
   const [showShortened, setShowShortened] = useState(false);
+  const [copiedIndex, setCopiedIndex] = useState(null);
 
   const enviarUrl = async (inputUrl) => {
     const apiUrl = 'http://localhost:5000/api';
@@ -35,9 +36,9 @@ function Url() {
       console.error('Error al cargar datos:', error);
     }
   };
-  const copyToClipboard = (url) => {
+  const copyToClipboard = (url, index) => {
     navigator.clipboard.writeText(url);
-    alert('URL copiada al portapapeles');
+    setCopiedIndex(index);
   };
 
   return (
@@ -49,7 +50,10 @@ function Url() {
             <div className='originalAndShortenedContainer' key={index}>
               <p className="originalUrl">{item.originalUrl}</p><hr></hr>
               <p className="shortenedUrl">{item.shortenedUrl}</p>
-              <button onClick={() => copyToClipboard(item.shortenedUrl)} className="copyButton">Copy</button>
+              <button onClick={() => copyToClipboard(item.shortenedUrl, index)} className={`copyButton ${copiedIndex === index ? 'copied' : ''}`}
+              >
+                {copiedIndex === index ? 'Copied!' : 'Copy'}
+              </button>
             </div>
           ))}
         </div>

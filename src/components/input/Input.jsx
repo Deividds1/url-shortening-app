@@ -8,10 +8,12 @@ function Input({ enviarUrl }) {
     setInputUrl(event.target.value);
   };
 
+  
+
   const handleEnviarUrl = () => {
     if (inputUrl.trim() !== '') {
       enviarUrl(inputUrl);
-    }
+    } 
   };
 
   return (
@@ -22,6 +24,7 @@ function Input({ enviarUrl }) {
           className="shortenInput"
           type="text"
           placeholder="Shorten a link here..."
+          value={inputUrl}
         />
         <br />
         <button onClick={handleEnviarUrl} className="shortenItButton">
